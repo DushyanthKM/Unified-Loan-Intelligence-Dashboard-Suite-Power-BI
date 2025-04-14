@@ -7,10 +7,10 @@ Designed a comprehensive dashboard suite for a lending organization to monitor K
 The lending organization currently lacks a centralized analytics solution that brings together high-level performance tracking, borrower behavior insights, and granular loan-level data. Data is siloed across multiple tools and reports, leading to delayed decisions, inefficient analysis, and missed strategic opportunities.
 
 ✅ [1] Background (Your Version)
-Background
+**Background
 A leading lending institution in India is on a mission to improve visibility into its loan portfolio, borrower behavior, and financial performance. The institution receives thousands of loan applications monthly and needed a better way to track KPIs, identify trends, and ensure data-driven decision-making.
 
-To enable this transformation, the team proposed building an interactive Power BI solution with tailored dashboards that offer a clear view into lending trends, repayment behaviors, borrower segmentation, and overall financial health.
+To enable this transformation, the team proposed building an interactive Power BI solution with tailored dashboards that offer a clear view into lending trends, repayment behaviors, borrower segmentation, and overall financial health.**
 
 ✅ [2] Power BI Reporting Requirement
 💼 Reporting Objectives
