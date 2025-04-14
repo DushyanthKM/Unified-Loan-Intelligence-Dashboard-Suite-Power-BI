@@ -6,103 +6,76 @@ Designed a comprehensive dashboard suite for a lending organization to monitor K
 
 The lending organization currently lacks a centralized analytics solution that brings together high-level performance tracking, borrower behavior insights, and granular loan-level data. Data is siloed across multiple tools and reports, leading to delayed decisions, inefficient analysis, and missed strategic opportunities.
 
-To address these issues, a three-tiered dashboard ecosystem is being proposed:
+✅ [1] Background (Your Version)
+Background
+A leading lending institution in India is on a mission to improve visibility into its loan portfolio, borrower behavior, and financial performance. The institution receives thousands of loan applications monthly and needed a better way to track KPIs, identify trends, and ensure data-driven decision-making.
 
-Dashboard 1 focuses on high-level KPIs (Loan Applications, Funded Amount, Repayments, etc.) with Month-to-Date (MTD) and Month-over-Month (MoM) trend tracking.
+To enable this transformation, the team proposed building an interactive Power BI solution with tailored dashboards that offer a clear view into lending trends, repayment behaviors, borrower segmentation, and overall financial health.
 
-Dashboard 2 explores borrower demographics, regional variations, and behavioral segmentation through visualizations.
+✅ [2] Power BI Reporting Requirement
+💼 Reporting Objectives
+The organization identified three key dashboards to support business strategy and performance monitoring:
 
-Dashboard 3 offers a detailed, grid-style interface with full loan and borrower data for case-level review.
+📊 Dashboard 1: Loan Performance Overview
+Sliced by: Month, Year
 
-Together, these dashboards aim to provide a 360-degree view of loan operations, enabling smarter decisions, faster actions, and deeper insights.
+KPIs:
 
-2. 📄 Technical Requirement Document
+Total Loan Applications (MTD, MoM)
 
-Project Name: Unified Loan Intelligence Dashboard SuiteStakeholders: Risk Team, Lending Operations, Strategy Team, Customer Support, ExecutivesTools Suggested: Power BI / Tableau / Looker / Google Data Studio
+Total Funded Amount (MTD, MoM)
 
-Data Sources:
+Total Amount Received (MTD, MoM)
 
-Loan Applications Table
+Average Interest Rate (MTD, MoM)
 
-Funded Loans Table
+Average Debt-to-Income (DTI) Ratio (MTD, MoM)
 
-Repayment Transactions Table
+Use Case:
+Helps senior management evaluate financial health and monitor business growth on a monthly basis.
 
-Borrower Profiles Table
+🗺️ Dashboard 2: Demographic & Distribution Analysis
+Sliced by: Region, Loan Purpose, Loan Term, Employment Length, Home Ownership
 
-Regional Metadata (e.g., state, city)
+Visuals:
 
-Dashboard 1 – KPI Trends Dashboard
+Monthly Trends (Line Chart)
 
-KPIs: Total Loan Applications, Total Funded Amount, Total Amount Received, Avg. Interest Rate, Avg. DTI
+State-wise Heat Map
 
-Time Views: MTD values, MoM percentage changes
+Loan Term Donut Chart
 
-Visuals: KPI Tiles, Line Charts (Monthly Trends), Bar Charts (MoM Growth/Decline)
+Employment Length Bar Chart
 
-Filters: Time Period, Loan Status, State
+Loan Purpose Breakdown
 
-Dashboard 2 – Demographic & Regional Dashboard
+Home Ownership Tree Map
 
-Charts:
+Metrics Shown:
 
-Line Chart: Monthly Trends by Issue Date
+Total Loan Applications
 
-Filled Map: Lending by State
+Total Funded Amount
 
-Donut Chart: Loan Term Distribution
+Total Amount Received
 
-Bar Chart: Employment Length vs Loan Metrics
+Use Case:
+Allows marketing and operations teams to understand borrower profiles and loan distribution to plan future campaigns and outreach.
 
-Bar Chart: Loan Purpose Breakdown
+📋 Dashboard 3: Detailed Data Grid View
+Objective:
+A single-screen dashboard that provides granular details of each loan and borrower. All loan-level attributes are shown in an interactive table.
 
-Tree Map: Home Ownership Analysis
+Use Case:
+For data analysts and operations managers who need a detailed, filterable view for audits, verifications, and case-level insights.
 
-Metrics Displayed: Total Applications, Total Funded, Total Received
+✅ [3] How Will These Dashboards Be Used?
+Loan Officers & Analysts will track loan-level performance and borrower health.
 
-Filters: State, Employment Length, Loan Term, Purpose, Home Ownership
+Marketing Teams will identify regions and loan purposes to focus on.
 
-Dashboard 3 – Details Dashboard (GRID)
+Executives will monitor cash flows, lending KPIs, and compare performance against targets.
 
-Fields: Loan ID, Borrower Name, Application Date, Loan Amount, Funded Date, Interest Rate, DTI, Repayment Status, State, Purpose, Employment Length, Home Ownership
-
-Features: Search bar, dynamic filters, export functionality
-
-Actions: Drilldown to view borrower/loan profile, sorting, pagination
-
-3. 📊 UI Wireframe (Text-Based Description)
-
-Dashboard 1 – KPI Trends
-
-Top Row: 5 KPI Cards (Applications, Funded, Received, Avg Interest Rate, Avg DTI)
-
-Center: Line Chart showing Monthly Trends for Applications, Funding, and Received Amounts
-
-Bottom: Bar Charts showing MoM Growth Comparison per KPI
-
-Dashboard 2 – Demographics View
-
-Left Panel: Filters (State, Purpose, Home Ownership, Employment Length)
-
-Center Grid:
-
-Top Left: Line Chart (Monthly Trends)
-
-Top Right: Filled Map (State-wise Lending Heatmap)
-
-Middle: Donut Chart (Loan Term)
-
-Bottom Left: Bar Chart (Employment Length)
-
-Bottom Right: Tree Map (Home Ownership)
-
-Dashboard 3 – Details Dashboard (GRID)
-
-Top: Search Bar and Filters (Loan ID, Borrower Name, Date Range, Status)
-
-Center: Table/Grid View with sortable columns and pagination
-
-Bottom: Export to Excel / Drilldown Button
 
 4. 🌟 Portfolio Case Study Format
 
@@ -122,6 +95,14 @@ Demographic Dashboard visualizing trends by geography, purpose, employment, and 
 
 Details Dashboard with complete loan-level data in a searchable, filterable table
 
+✅ [5] Deliverables
+Power BI File with 3 dashboards
+
+Interactive slicers for dynamic filtering
+
+Embedded bookmarks and drill-throughs
+
+Portfolio-ready PDF with visuals and explanations
 Impact:
 
 Reduced manual reporting time by 70%
