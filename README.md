@@ -31,8 +31,8 @@ Average Interest Rate (MTD, MoM)
 
 Average Debt-to-Income (DTI) Ratio (MTD, MoM)
 
-Use Case:
-Helps senior management evaluate financial health and monitor business growth on a monthly basis.
+**Use Case:
+Helps senior management evaluate financial health and monitor business growth on a monthly basis.**
 
 🗺️ Dashboard 2: Demographic & Distribution Analysis
 Sliced by: Region, Loan Purpose, Loan Term, Employment Length, Home Ownership
@@ -59,15 +59,15 @@ Total Funded Amount
 
 Total Amount Received
 
-Use Case:
-Allows marketing and operations teams to understand borrower profiles and loan distribution to plan future campaigns and outreach.
+**Use Case:
+Allows marketing and operations teams to understand borrower profiles and loan distribution to plan future campaigns and outreach.**
 
 📋 Dashboard 3: Detailed Data Grid View
 Objective:
 A single-screen dashboard that provides granular details of each loan and borrower. All loan-level attributes are shown in an interactive table.
 
-Use Case:
-For data analysts and operations managers who need a detailed, filterable view for audits, verifications, and case-level insights.
+**Use Case:
+For data analysts and operations managers who need a detailed, filterable view for audits, verifications, and case-level insights.**
 
 ✅ [3] How Will These Dashboards Be Used?
 Loan Officers & Analysts will track loan-level performance and borrower health.
@@ -89,12 +89,11 @@ Solution:
 
 Created 3 dashboards:
 
-KPI Dashboard with MTD/MoM insights on Applications, Funding, Repayments, Interest Rates, and DTI
+**KPI Dashboard with MTD/MoM insights on Applications, Funding, Repayments, Interest Rates, and DTI**
 
-Demographic Dashboard visualizing trends by geography, purpose, employment, and ownership
+**Demographic Dashboard visualizing trends by geography, purpose, employment, and ownership**
 
-Details Dashboard with complete loan-level data in a searchable, filterable table
-
+**Details Dashboard with complete loan-level data in a searchable, filterable table**
 ✅ [5] Deliverables
 Power BI File with 3 dashboards
 
