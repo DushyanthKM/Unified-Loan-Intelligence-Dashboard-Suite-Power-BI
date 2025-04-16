@@ -36,6 +36,49 @@ The dataset includes the following key attributes:
 
 ---
 
+## 🚀 Tools & Skills Used
+
+- Power BI
+- DAX
+- Power Query Editor
+- Data Modeling (Star Schema)
+- UX Design & Navigation
+- KPI & Time Intelligence Analysis
+  
+---
+
+## 🔧 Methodology
+
+### 🔹 Data Preparation
+- Imported data from CSV using Power Query Editor
+- Handled null values and reviewed column distribution
+- Created **custom Date Table** for Time Intelligence using DAX
+
+### 🔹 Data Modeling
+- Built star schema with 1-to-many relationship between Date Table & Loan Table
+- Optimized data flow with minimal transformation in visuals
+
+### 🔹 KPI Development
+- Built core KPIs:
+  - Total Loan Applications
+  - Total Funded Amount
+  - Total Amount Received
+  - Average Interest Rate
+  - Average Debt-to-Income Ratio
+- Used Time Intelligence DAX functions for MTD, MoM, and YTD comparisons
+
+### 🔹 Visual Design
+- Custom page layout (2200x3300), dark theme, transparency for modern UX
+- Grouped visuals, aligned KPIs, and added slicers
+- Created grouped cards for **Good vs Bad Loan Segmentation**
+
+### 🔹 Advanced Features
+- Field Parameters for dynamic KPI switching
+- Sortable charts with Month & Month Number columns
+- Interactive navigation buttons and branding (bank logo)
+
+---
+
 ## 🧭 Dashboard Structure
 
 The Power BI Dashboard is divided into three interactive pages:
