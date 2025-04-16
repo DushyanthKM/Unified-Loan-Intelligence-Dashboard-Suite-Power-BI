@@ -99,6 +99,12 @@ The Power BI Dashboard is divided into three interactive pages:
 - **Healthy ROI** as the amount received exceeds funded amount → Good loan structuring
 - **Rising Applications (4.3K MTD)** → Increased customer trust and marketing success
 - **Monitor Risk**: With rising DTI and interest rates, credit risk might increase
+- 
+## ✅ Loan Quality Breakdown
+
+- Segmented into **Good vs Bad Loans** using `loan_status` grouping.
+- **Good Loans** made up the majority of applications, indicating strong underwriting.
+- **Bad Loans** still present an opportunity for better risk assessment models.
 
 ---
 
@@ -136,13 +142,11 @@ This section provides a loan-by-loan view for micro-level decision making.
 
 📌 Recommendation: Build customer personas focused on renters for financial literacy & planning tools.
 
----
 
 ### 💳 Loan Purpose
 - Dominant reasons: **Debt Consolidation**, **Credit Card Refinancing**, **Home Improvement**
 - High interest loans usually tagged to **debt** → Strong need for financial management tools
 
----
 
 ### 📈 Financial Observations
 - **Funded Amounts** range: `$1,200 – $25,000`
