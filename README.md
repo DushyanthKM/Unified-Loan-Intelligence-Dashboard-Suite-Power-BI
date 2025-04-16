@@ -10,7 +10,7 @@ Banks and financial institutions face a major challenge in identifying loan perf
 
 ## 🔍 Project Overview
 
-This case study presents a comprehensive **Power BI dashboard solution** that transforms raw loan data into meaningful insights to guide lending decisions. The project covers everything from data cleaning, modeling, DAX-based KPIs to advanced visuals and storytelling.
+I have presented a comprehensive **Power BI dashboard solution** that transforms raw loan data into meaningful insights to guide lending decisions. The project covers everything from data cleaning, modeling, DAX-based KPIs to advanced visuals and storytelling.
 
 > 🧠 Goal: Help stakeholders understand portfolio health, customer behavior, and regional risk factors to improve decision-making.
 
@@ -47,35 +47,28 @@ The dataset includes the following key attributes:
   
 ---
 
-## 🔧 Methodology
+## 🔑 Key Methodology 
 
-### 🔹 Data Preparation
-- Imported data from CSV using Power Query Editor
-- Handled null values and reviewed column distribution
-- Created **custom Date Table** for Time Intelligence using DAX
+- **Data Preparation**:  
+  Imported CSV data into Power BI; assessed quality via Power Query (nulls, column distribution). Created a Date Table using `CALENDAR` and modeled relationships for time intelligence.
 
-### 🔹 Data Modeling
-- Built star schema with 1-to-many relationship between Date Table & Loan Table
-- Optimized data flow with minimal transformation in visuals
+- **Data Modeling**:  
+  Built a 1-to-many relationship between Date Table and loan issue date for accurate temporal insights (MTD, YTD, MoM).
 
-### 🔹 KPI Development
-- Built core KPIs:
-  - Total Loan Applications
-  - Total Funded Amount
-  - Total Amount Received
-  - Average Interest Rate
-  - Average Debt-to-Income Ratio
-- Used Time Intelligence DAX functions for MTD, MoM, and YTD comparisons
+- **DAX Measures**:  
+  Wrote reusable and optimized DAX for KPIs like `Total Loans`, `Funded Amount`, `Amount Received`, `Avg Interest Rate`, and `Avg DTI`. Implemented time-based comparisons using `TOTALMTD`, `DATEADD`, and custom measures.
 
-### 🔹 Visual Design
-- Custom page layout (2200x3300), dark theme, transparency for modern UX
-- Grouped visuals, aligned KPIs, and added slicers
-- Created grouped cards for **Good vs Bad Loan Segmentation**
+- **Visual Design**:  
+  Designed sleek, custom-sized dashboards (3300x2200px, canvas theme `#282626`). Aligned elements, grouped visuals, and formatted KPIs for readability and consistency.
 
-### 🔹 Advanced Features
-- Field Parameters for dynamic KPI switching
-- Sortable charts with Month & Month Number columns
-- Interactive navigation buttons and branding (bank logo)
+- **Segmentation**:  
+  Segregated loans into Good vs Bad using grouping + dynamic DAX to display segmented KPIs, driving better loan quality insights.
+
+- **Advanced Interactions**:  
+  Built field parameters to allow user-defined filters; implemented month-level sorting and slicer interactions.
+
+- **Final Touches**:  
+  Enabled navigation via image buttons + page navigators; added insightful table visuals, slicers, and dynamic filters.
 
 ---
 
@@ -100,12 +93,9 @@ The Power BI Dashboard is divided into three interactive pages:
 - **Average Interest Rate:** `12.05%`  
 - **Average DTI (Debt to Income):** `13.33%`
 
-✅ MoM Growth in All KPIs → Business scaling up successfully  
-📈 Interest Rate & DTI rising slightly → Indicates higher-risk borrower segments being approved
-
----
 
 ### 🧠 Strategic Insights
+- **MoM Growth** in All KPIs → Business scaling up successfully
 - **Healthy ROI** as the amount received exceeds funded amount → Good loan structuring
 - **Rising Applications (4.3K MTD)** → Increased customer trust and marketing success
 - **Monitor Risk**: With rising DTI and interest rates, credit risk might increase
@@ -154,15 +144,6 @@ This section provides a loan-by-loan view for micro-level decision making.
 
 ---
 
-### 🎓 Grade and Sub-grade Trend
-- Most borrowers lie in **Grade B & C**
-- Subgrades like **B4, B5, C3** frequently appear
-- Occasional **Grade D** loans → indicates acceptable risk tolerance
-
-📌 Strategy: Launch incentive program for lower-grade customers with excellent payment behavior.
-
----
-
 ### 📈 Financial Observations
 - **Funded Amounts** range: `$1,200 – $25,000`
 - **Installments** vary from `$40 to $829/month`
@@ -170,9 +151,10 @@ This section provides a loan-by-loan view for micro-level decision making.
 
 📌 Suggestion: Tiered EMI models + flexible repayment options can improve repayment and loyalty.
 
+
 ---
 
-## 🧠 Final Business Recommendations
+## 🧠 Final Business Recommendations & Conclusion
 
 | Theme | Suggestion |
 |-------|------------|
@@ -182,3 +164,9 @@ This section provides a loan-by-loan view for micro-level decision making.
 | 🔄 Loan Structuring | Promote 36-month low EMI options for affordability |
 | 🤝 Customer Loyalty | Design loyalty benefits for consistent payers, especially in subgrades C3 & B5 |
 
+---
+## 🤝 Contributing
+💡 Open for feedback & collaborations! Feel free to suggest improvements and contribute to this project.
+
+## 👨‍💻 Author & 📌 Contact
+**Dushyanth KM** 🔗 [LinkedIn](https://www.linkedin.com/in/dushyanth-km-666660260/)
