@@ -22,7 +22,7 @@ The dataset includes the following key attributes:
 
 | Column Name        | Description                                        |
 |--------------------|----------------------------------------------------|
-| `loan_status`      | Status of loan (Fully Paid, Charged Off, etc.)    |
+| `loan_status`      | Status of loan (Fully Paid, Charged Off)    |
 | `funded_amount`    | Amount sanctioned to the borrower                 |
 | `amount_received`  | Amount repaid by the borrower                     |
 | `interest_rate`    | Annual interest rate (%)                          |
