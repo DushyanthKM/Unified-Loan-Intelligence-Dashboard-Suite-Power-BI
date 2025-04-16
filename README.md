@@ -1,14 +1,38 @@
-# 💼 Bank Loan Report Dashboard | Full Case Study
+# 💼 Bank Loan Report Dashboard | Case Study
 
-This case study is an end-to-end analysis of a dynamic Power BI dashboard designed to help a financial institution track and optimize its loan portfolio performance.
+---
 
-It covers:
+## ❓ Problem Statement
 
-- High-level KPIs for strategic decisions
-- Portfolio segmentation for deeper insights
-- Individual loan trends for operational improvements
+Banks and financial institutions face a major challenge in identifying loan performance trends, assessing borrower risk, and optimizing their lending strategy in real time. This leads to delayed insights, higher default rates, and missed opportunities for profit.
 
-> **Goal:** Deliver actionable business intelligence to improve loan funding strategies, assess customer behavior, and maximize ROI.
+---
+
+## 🔍 Project Overview
+
+This case study presents a comprehensive **Power BI dashboard solution** that transforms raw loan data into meaningful insights to guide lending decisions. The project covers everything from data cleaning, modeling, DAX-based KPIs to advanced visuals and storytelling.
+
+> 🧠 Goal: Help stakeholders understand portfolio health, customer behavior, and regional risk factors to improve decision-making.
+
+---
+
+## 📊 Data Understanding
+
+The dataset includes the following key attributes:
+
+| Column Name        | Description                                        |
+|--------------------|----------------------------------------------------|
+| `loan_status`      | Status of loan (Fully Paid, Charged Off, etc.)    |
+| `funded_amount`    | Amount sanctioned to the borrower                 |
+| `amount_received`  | Amount repaid by the borrower                     |
+| `interest_rate`    | Annual interest rate (%)                          |
+| `dti`              | Debt-to-Income ratio                              |
+| `purpose`          | Purpose of the loan (e.g., debt consolidation)    |
+| `home_ownership`   | Borrower’s home ownership status (Rent, Mortgage) |
+| `term`             | Duration of the loan (36 or 60 months)            |
+| `grade` & `sub_grade` | Credit grade assigned to the borrower         |
+| `state`            | Geographic location of the borrower               |
+| `issue_date`       | Month the loan was issued                         |
 
 ---
 
@@ -115,31 +139,3 @@ This section provides a loan-by-loan view for micro-level decision making.
 | 🔄 Loan Structuring | Promote 36-month low EMI options for affordability |
 | 🤝 Customer Loyalty | Design loyalty benefits for consistent payers, especially in subgrades C3 & B5 |
 
----
-
-## 💡 Portfolio Extension Ideas
-
-- Add `.pbix` file or Power BI screenshots
-- Integrate Python/SQL scripts for ETL or cleaning
-- Build a resume-ready Tableau/Power BI Storytelling Deck (optional)
-
----
-
-## 📎 File Structure (Repo Sample)
-
-```bash
-📁 Bank-Loan-Report-Case-Study
-│
-├── 📊 PowerBI Dashboard Screenshots/
-│   ├── page_1_summary.png
-│   ├── page_2_overview.png
-│   └── page_3_details.png
-│
-├── 📁 Analysis/
-│   ├── insights_summary.md
-│   ├── insights_segmented.md
-│   └── insights_loanlevel.md
-│
-├── 📄 README.md  ← (this file)
-└── 📁 Assets/
-    └── report_cover.jpg (Optional)
